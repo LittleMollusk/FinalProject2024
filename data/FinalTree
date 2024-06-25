@@ -1,0 +1,132 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=28;
+	taxlabels
+	Ahaetulla_prasina
+	Anolis_carolinensis
+	Anolis_sagrei
+	Bufo_bufo
+	Candoia_aspera
+	Crotalus_tigris
+	Elgaria_multicarinata
+	Eublepharis_macularius
+	Euleptes_europaea
+	Gekko_japonicus
+	Hemicordylus_capensis
+	Heteronotia_binoei
+	Lacerta_agilis
+	Notechis_scutatus
+	Pantherophis_guttatus
+	Podarcis_muralis
+	Podarcis_raffonei
+	Pogona_vitticeps
+	Protobothrops_mucrosquamatus
+	Pseudonaja_textilis
+	Python_bivittatus
+	Rhineura_floridana
+	Sceloporus_undulatus
+	Sphaerodactylus_townsendi
+	Thamnophis_elegans
+	Thamnophis_sirtalis
+	Varanus_komodoensis
+	Zootoca_vivipara
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Gekko_japonicus:3.682733,Bufo_bufo:1.286839,(((((((Protobothrops_mucrosquamatus:0.019105,Crotalus_tigris:0.026016)[&label=100]:0.053473,(((Thamnophis_sirtalis:0.004682,Thamnophis_elegans:0.007032)[&label=100]:0.061919,(Pantherophis_guttatus:0.063996,Ahaetulla_prasina:0.038378)[&label=93]:0.013349)[&label=97]:0.008883,(Notechis_scutatus:0.009555,Pseudonaja_textilis:0.023437)[&label=100]:0.040032)[&label=100]:0.026806)[&label=100]:0.056632,(Python_bivittatus:0.053157,Candoia_aspera:0.084602)[&label=73]:0.013799)[&label=100]:0.326169,((((Anolis_carolinensis:0.050757,Anolis_sagrei:0.112321)[&label=100]:0.127048,Sceloporus_undulatus:0.419553)[&label=100]:0.088909,Pogona_vitticeps:0.301841)[&label=98]:0.095433,(Varanus_komodoensis:0.283628,Elgaria_multicarinata:0.109719)[&label=97]:0.062177)[&label=54]:0.031614)[&label=41]:0.03222,(Rhineura_floridana:0.234618,(((Podarcis_muralis:0.008702,Podarcis_raffonei:0.041138)[&label=100]:0.024571,Zootoca_vivipara:0.029792)[&label=91]:0.00431,Lacerta_agilis:0.025808)[&label=100]:0.172223)[&label=100]:0.133934)[&label=62]:0.038793,Hemicordylus_capensis:0.265558)[&label=60]:0.04037,(Eublepharis_macularius:0.178916,(Heteronotia_binoei:0.144705,(Sphaerodactylus_townsendi:0.147895,Euleptes_europaea:0.084507)[&label=99]:0.087636)[&label=94]:0.040388)[&label=93]:0.113328)[&label=63]:0.257654);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="label";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="label";
+	set appearance.branchColorGradient=true;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set colour.order.label="label:41,54,60,62,63,73,91,93,94,97,98,99,100";
+	set colour.scheme.label="label:HSBDiscrete{hue,1,0.0,1.0,0.674,0.864,0.5,0.821}";
+	set layout.expansion=1000;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="label";
+	set nodeLabels.displayAttribute="Branch times";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=11;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=3;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=2.5;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Times New Roman";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="cladogram";
+end;
+

@@ -1,0 +1,43 @@
+IQ-TREE multicore version 2.2.0 COVID-edition for Windows 64-bit built Jun  1 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    DESKTOP-0JHL2LP (AVX2, FMA3, 7 GB RAM)
+Command: C:\Users\Usuario\Desktop\iqtree-2.2.0-Windows\iqtree-2.2.0-Windows\bin\iqtree2.exe -s lizards_and_snakes_bmp2_refseq_transcript.fasta -B 1000
+Seed:    81631 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jun 25 13:52:20 2024
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file lizards_and_snakes_bmp2_refseq_transcript.fasta ... Fasta format detected
+Reading fasta file: done in 0.0044083 secs
+ERROR: Sequence Anolis_carolinensis contains not enough characters (2832)
+ERROR: Sequence Python_bivittatus contains not enough characters (2680)
+ERROR: Sequence Thamnophis_sirtalis contains too many characters (3152)
+ERROR: Sequence Gekko_japonicus contains not enough characters (1375)
+ERROR: Sequence Protobothrops_mucrosquamatus contains not enough characters (2085)
+ERROR: Sequence Pogona_vitticeps contains too many characters (3063)
+ERROR: Sequence Notechis_scutatus contains not enough characters (1311)
+ERROR: Sequence Pseudonaja_textilis contains not enough characters (2051)
+ERROR: Sequence Podarcis_muralis contains too many characters (3369)
+ERROR: Sequence Thamnophis_elegans contains too many characters (3271)
+ERROR: Sequence Lacerta_agilis contains not enough characters (2017)
+ERROR: Sequence Pantherophis_guttatus contains too many characters (3143)
+ERROR: Sequence Zootoca_vivipara contains too many characters (3382)
+ERROR: Sequence Crotalus_tigris contains not enough characters (2086)
+ERROR: Sequence Sceloporus_undulatus contains too many characters (3020)
+ERROR: Sequence Varanus_komodoensis contains not enough characters (2398)
+ERROR: Sequence Sphaerodactylus_townsendi contains not enough characters (2854)
+ERROR: Sequence Hemicordylus_capensis contains too many characters (3397)
+ERROR: Sequence Podarcis_raffonei contains too many characters (3540)
+ERROR: Sequence Eublepharis_macularius contains not enough characters (2945)
+ERROR: Sequence Euleptes_europaea contains not enough characters (1200)
+ERROR: Sequence Ahaetulla_prasina contains not enough characters (2828)
+ERROR: Sequence Heteronotia_binoei contains not enough characters (2248)
+ERROR: Sequence Anolis_sagrei contains not enough characters (2774)
+ERROR: Sequence Rhineura_floridana contains too many characters (4614)
+ERROR: Sequence Elgaria_multicarinata contains not enough characters (2413)
+ERROR: Sequence Candoia_aspera contains too many characters (3201)
+ERROR: 
