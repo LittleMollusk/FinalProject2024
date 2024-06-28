@@ -1,0 +1,292 @@
+IQ-TREE 2.2.0 COVID-edition built Jun  1 2022
+
+Input file name: Liz_SnaBMP2.aln-fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 408106
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 27 sequences with 6666 nucleotide sites
+Number of constant sites: 3381 (= 50.7201% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 3381 (= 50.7201% of all sites)
+Number of parsimony informative sites: 1671
+Number of distinct site patterns: 2622
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: SYM+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+SYM+G4           -36121.558   72357.116 +    0.355   72358.116 +    0.364   72744.988 +    0.521
+TVMe+G4          -36126.758   72365.517 -  0.00532   72366.483 -  0.00555   72746.584 +    0.235
+TIM3e+G4         -36131.819   72373.639 - 9.16e-05   72374.571 - 9.73e-05   72747.901 +    0.121
+TPM3+G4          -36136.646   72381.292 -    2e-06   72382.190 - 2.15e-06   72748.750 +   0.0795
+SYM+I+G4         -36120.225   72356.450 +    0.495   72357.485 +    0.499   72751.127 -   0.0242
+TVMe+I+G4        -36125.311   72364.623 -  0.00831   72365.624 -  0.00853   72752.495 -   0.0122
+TIM3e+I+G4       -36130.857   72373.714 - 8.82e-05   72374.679 - 9.21e-05   72754.781 -   0.0039
+TPM3+I+G4        -36135.563   72381.126 - 2.17e-06   72382.058 -  2.3e-06   72755.388 -  0.00288
+GTR+F+G4         -36123.084   72366.169 -  0.00384   72367.277 -  0.00373   72774.455 - 2.08e-07
+GTR+F+I+G4       -36121.386   72364.771 -  0.00772   72365.917 -  0.00736   72779.863 - 1.39e-08
+TVM+F+G4         -36132.066   72382.131 - 1.31e-06   72383.203 -  1.3e-06   72783.613 - 2.14e-09
+TVM+F+I+G4       -36130.326   72380.652 - 2.75e-06   72381.760 - 2.67e-06   72788.938 - 1.49e-10
+TIM3+F+G4        -36140.423   72396.846 - 8.37e-10   72397.882 - 8.43e-10   72791.523 - 4.09e-11
+GTR+F+I+I+R3     -36115.827   72359.654 +   0.0997   72360.914 +   0.0898   72795.160 - 6.64e-12
+TIM3+F+I+G4      -36139.368   72396.737 - 8.84e-10   72397.808 - 8.75e-10   72798.218 - 1.44e-12
+TPM3u+F+G4       -36149.091   72412.182 - 3.91e-13   72413.183 - 4.01e-13   72800.054 - 5.75e-13
+GTR+F+R3         -36124.774   72375.547 - 3.53e-05   72376.769 - 3.24e-05   72804.248 - 7.06e-14
+TPM3u+F+I+G4     -36147.867   72411.733 - 4.89e-13   72412.769 - 4.93e-13   72806.410 -  2.4e-14
+GTR+F+R4         -36117.597   72365.194 -  0.00625   72366.494 -  0.00552   72807.505 - 1.39e-14
+GTR+F+I+I+R4     -36115.475   72362.949 -   0.0192   72364.290 -   0.0166   72812.065 - 1.42e-15
+TIM2e+G4         -36175.108   72460.215 - 1.45e-23   72461.147 - 1.54e-23   72834.478 - 1.93e-20
+GTR+F+I+I+R2     -36145.127   72414.253 - 1.39e-13   72415.437 -  1.3e-13   72836.150 - 8.35e-21
+TPM2+G4          -36180.632   72469.264 - 1.57e-25   72470.163 -  1.7e-25   72836.722 - 6.27e-21
+TIM2e+I+G4       -36173.590   72459.181 - 2.44e-23   72460.147 - 2.54e-23   72840.248 - 1.08e-21
+TPM2+I+G4        -36178.997   72467.995 - 2.97e-25   72468.927 - 3.15e-25   72842.257 - 3.94e-22
+TNe+G4           -36184.140   72476.279 - 4.72e-27   72477.178 - 5.09e-27   72843.737 - 1.88e-22
+K2P+G4           -36189.312   72484.624 - 7.27e-29   72485.490 - 7.98e-29   72845.278 -  8.7e-23
+TNe+I+G4         -36183.052   72476.104 - 5.15e-27   72477.036 - 5.47e-27   72850.367 - 6.83e-24
+K2P+I+G4         -36188.079   72484.159 - 9.18e-29   72485.057 - 9.91e-29   72851.617 - 3.66e-24
+TIMe+G4          -36184.053   72478.106 - 1.89e-27   72479.038 - 2.01e-27   72852.369 - 2.51e-24
+K3P+G4           -36189.239   72486.478 - 2.88e-29   72487.377 - 3.11e-29   72853.936 - 1.15e-24
+TIM2+F+G4        -36172.436   72460.872 - 1.05e-23   72461.907 - 1.05e-23   72855.549 - 5.12e-25
+TIMe+I+G4        -36183.009   72478.019 - 1.98e-27   72478.985 - 2.06e-27   72859.086 - 8.73e-26
+K3P+I+G4         -36187.946   72485.893 - 3.86e-29   72486.825 -  4.1e-29   72860.155 - 5.11e-26
+TIM2+F+I+G4      -36170.778   72459.557 - 2.02e-23   72460.629 -    2e-23   72861.039 - 3.29e-26
+TPM2u+F+G4       -36182.012   72478.025 - 1.97e-27   72479.025 - 2.02e-27   72865.897 -  2.9e-27
+TPM2u+F+I+G4     -36180.112   72476.224 - 4.85e-27   72477.260 - 4.89e-27   72870.901 - 2.37e-28
+TN+F+G4          -36188.540   72491.079 - 2.88e-30   72492.080 - 2.96e-30   72878.952 - 4.24e-30
+TN+F+I+G4        -36187.337   72490.675 - 3.53e-30   72491.711 - 3.56e-30   72885.352 - 1.73e-31
+TIM+F+G4         -36188.523   72493.047 - 1.08e-30   72494.083 - 1.09e-30   72887.724 - 5.28e-32
+HKY+F+G4         -36197.708   72507.417 - 8.17e-34   72508.383 - 8.53e-34   72888.484 - 3.61e-32
+TIM+F+I+G4       -36187.330   72492.661 - 1.31e-30   72493.733 - 1.29e-30   72894.143 - 2.13e-33
+HKY+F+I+G4       -36196.320   72506.639 - 1.21e-33   72507.640 - 1.24e-33   72894.512 - 1.77e-33
+K3Pu+F+G4        -36197.674   72509.348 - 3.11e-34   72510.349 - 3.19e-34   72897.220 - 4.57e-34
+K3Pu+F+I+G4      -36196.310   72508.621 - 4.48e-34   72509.657 - 4.51e-34   72903.298 - 2.19e-35
+GTR+F+R2         -36213.664   72549.328 - 6.48e-43   72550.473 - 6.18e-43   72964.419 - 1.17e-48
+JC+I+G4          -36653.443   73412.886 - 1.96e-230   73413.752 - 2.15e-230   73773.539 - 2.34e-224
+JC+G4            -36659.511   73423.022 - 1.23e-232   73423.855 - 1.38e-232   73776.870 - 4.43e-225
+F81+F+I+G4       -36661.186   73434.371 - 4.23e-235   73435.337 - 4.42e-235   73815.439 - 1.87e-233
+F81+F+G4         -36667.333   73444.666 - 2.46e-237   73445.598 - 2.61e-237   73818.928 - 3.26e-234
+GTR+F+I          -36762.069   73644.137 - 1.19e-280   73645.246 - 1.16e-280   74052.424 - 6.47e-285
+GTR+F            -37762.555   75643.110 -        0   75644.182 -        0   76044.592 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: SYM+G4
+
+Rate parameter R:
+
+  A-C: 1.4262
+  A-G: 3.0167
+  A-T: 0.6924
+  C-G: 1.7359
+  C-T: 3.6085
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A   -0.8947    0.2485    0.5256    0.1206
+  C    0.2485     -1.18    0.3024    0.6287
+  G    0.5256    0.3024    -1.002    0.1742
+  T    0.1206    0.6287    0.1742   -0.9235
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.5052
+
+ Category  Relative_rate  Proportion
+  1         0.03436        0.25
+  2         0.2553         0.25
+  3         0.824          0.25
+  4         2.886          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -36121.5421 (s.e. 417.4490)
+Unconstrained log-likelihood (without tree): -40540.9812
+Number of free parameters (#branches + #model parameters): 57
+Akaike information criterion (AIC) score: 72357.0842
+Corrected Akaike information criterion (AICc) score: 72358.0848
+Bayesian information criterion (BIC) score: 72744.9564
+
+Total tree length (sum of branch lengths): 9.1627
+Sum of internal branch lengths: 1.8579 (20.2764% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Gekko_japonicus' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----------------------------------------------------------Gekko_japonicus
+|
+|                  +--Protobothrops_mucrosquamatus
+|               +--| (100)
+|               |  +--Crotalus_tigris
+|            +--| (100)
+|            |  |        +--Thamnophis_sirtalis
+|            |  |     +--| (100)
+|            |  |     |  +--Thamnophis_elegans
+|            |  |  +--| (67)
+|            |  |  |  |  +--Pantherophis_guttatus
+|            |  |  |  +--| (99)
+|            |  |  |     +--Ahaetulla_prasina
+|            |  +--| (99)
+|            |     |  +--Notechis_scutatus
+|            |     +--| (100)
+|            |        +--Pseudonaja_textilis
+|         +--| (87)
+|         |  +--Candoia_aspera
+|     +---| (98)
+|     |   +--Python_bivittatus
+|  +--| (48)
+|  |  |        +--Eublepharis_macularius
+|  |  |     +--| (86)
+|  |  |     |  |  +--Heteronotia_binoei
+|  |  |     |  +--| (78)
+|  |  |     |     |  +--Sphaerodactylus_townsendi
+|  |  |     |     +--| (98)
+|  |  |     |        +--Euleptes_europaea
+|  |  |  +--| (75)
+|  |  |  |  +---Hemicordylus_capensis
+|  |  +--| (65)
+|  |     |  +----Rhineura_floridana
+|  |     +--| (100)
+|  |        |     +--Podarcis_muralis
+|  |        |  +--| (100)
+|  |        |  |  +--Podarcis_raffonei
+|  |        +--| (100)
+|  |           |  +--Lacerta_agilis
+|  |           +--| (67)
+|  |              +--Zootoca_vivipara
++--| (38)
+|  |        +--Anolis_carolinensis
+|  |     +--| (100)
+|  |     |  +--Anolis_sagrei
+|  |  +--| (100)
+|  |  |  +-----Sceloporus_undulatus
+|  +--| (95)
+|     +---Pogona_vitticeps
+|
+|  +---Varanus_komodoensis
++--| (93)
+   +--Elgaria_multicarinata
+
+Tree in newick format:
+
+(Gekko_japonicus:3.9857366839,((((((Protobothrops_mucrosquamatus:0.0215114376,Crotalus_tigris:0.0293685613)100:0.0599893351,(((Thamnophis_sirtalis:0.0044046149,Thamnophis_elegans:0.0085235075)100:0.0504732466,(Pantherophis_guttatus:0.0750957102,Ahaetulla_prasina:0.0450222446)99:0.0224178923)67:0.0120297744,(Notechis_scutatus:0.0403135654,Pseudonaja_textilis:0.0281530443)100:0.0436851784)99:0.0330088442)100:0.0744201959,Candoia_aspera:0.1300802264)87:0.0179061373,Python_bivittatus:0.1608875384)98:0.3080386921,(((Eublepharis_macularius:0.1880384771,(Heteronotia_binoei:0.1693890220,(Sphaerodactylus_townsendi:0.1525977577,Euleptes_europaea:0.1003040961)98:0.0895007900)78:0.0204470599)86:0.1775603403,Hemicordylus_capensis:0.2994513866)75:0.0476628152,(Rhineura_floridana:0.3537457997,((Podarcis_muralis:0.0205586930,Podarcis_raffonei:0.0225141873)100:0.0260061151,(Lacerta_agilis:0.0476039479,Zootoca_vivipara:0.0368738351)67:0.0037568302)100:0.1824383315)100:0.2197419304)65:0.0423729459)48:0.0271683254,(((Anolis_carolinensis:0.0384454799,Anolis_sagrei:0.1286992659)100:0.1068316677,Sceloporus_undulatus:0.4410532477)100:0.1299393544,Pogona_vitticeps:0.3258862207)95:0.0844782027)38:0.0161050707,(Varanus_komodoensis:0.3258681979,Elgaria_multicarinata:0.1247384605)93:0.0618920525);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -36121.544345
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------------------------------------------------Gekko_japonicus
+|
+|                  +--Protobothrops_mucrosquamatus
+|               +--| (100)
+|               |  +--Crotalus_tigris
+|            +--| (100)
+|            |  |        +--Thamnophis_sirtalis
+|            |  |     +--| (100)
+|            |  |     |  +--Thamnophis_elegans
+|            |  |  +--| (67)
+|            |  |  |  |  +--Pantherophis_guttatus
+|            |  |  |  +--| (99)
+|            |  |  |     +--Ahaetulla_prasina
+|            |  +--| (99)
+|            |     |  +--Notechis_scutatus
+|            |     +--| (100)
+|            |        +--Pseudonaja_textilis
+|         +--| (87)
+|         |  +--Candoia_aspera
+|     +---| (98)
+|     |   +--Python_bivittatus
+|  +--| (48)
+|  |  |        +--Eublepharis_macularius
+|  |  |     +--| (86)
+|  |  |     |  |  +--Heteronotia_binoei
+|  |  |     |  +--| (78)
+|  |  |     |     |  +--Sphaerodactylus_townsendi
+|  |  |     |     +--| (98)
+|  |  |     |        +--Euleptes_europaea
+|  |  |  +--| (75)
+|  |  |  |  +---Hemicordylus_capensis
+|  |  +--| (65)
+|  |     |  +----Rhineura_floridana
+|  |     +--| (100)
+|  |        |     +--Podarcis_muralis
+|  |        |  +--| (100)
+|  |        |  |  +--Podarcis_raffonei
+|  |        +--| (100)
+|  |           |  +--Lacerta_agilis
+|  |           +--| (67)
+|  |              +--Zootoca_vivipara
++--| (38)
+|  |        +--Anolis_carolinensis
+|  |     +--| (100)
+|  |     |  +--Anolis_sagrei
+|  |  +--| (100)
+|  |  |  +-----Sceloporus_undulatus
+|  +--| (95)
+|     +---Pogona_vitticeps
+|
+|  +---Varanus_komodoensis
++--| (93)
+   +--Elgaria_multicarinata
+
+
+Consensus tree in newick format: 
+
+(Gekko_japonicus:3.9870465128,((((((Protobothrops_mucrosquamatus:0.0215223448,Crotalus_tigris:0.0293800207)100:0.0600145416,(((Thamnophis_sirtalis:0.0044054239,Thamnophis_elegans:0.0085246444)100:0.0504871097,(Pantherophis_guttatus:0.0751174429,Ahaetulla_prasina:0.0450351253)99:0.0224309492)67:0.0120334394,(Notechis_scutatus:0.0403321714,Pseudonaja_textilis:0.0281648501)100:0.0437068996)99:0.0330294691)100:0.0744543816,Candoia_aspera:0.1301163489)87:0.0179317034,Python_bivittatus:0.1609360695)98:0.3081643056,(((Eublepharis_macularius:0.1880798138,(Heteronotia_binoei:0.1694392961,(Sphaerodactylus_townsendi:0.1526190783,Euleptes_europaea:0.1003359039)98:0.0895609175)78:0.0204321940)86:0.1776087757,Hemicordylus_capensis:0.2995298651)75:0.0476558232,(Rhineura_floridana:0.3538510052,((Podarcis_muralis:0.0205634908,Podarcis_raffonei:0.0225181859)100:0.0260117238,(Lacerta_agilis:0.0476217863,Zootoca_vivipara:0.0368804010)67:0.0037606975)100:0.1824959735)100:0.2198215067)65:0.0423623686)48:0.0271388592,(((Anolis_carolinensis:0.0384667618,Anolis_sagrei:0.1287338822)100:0.1068609850,Sceloporus_undulatus:0.4412086464)100:0.1300036181,Pogona_vitticeps:0.3259386531)95:0.0844714176)38:0.0182119728,(Varanus_komodoensis:0.3259945019,Elgaria_multicarinata:0.1247742652)93:0.0598875036);
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun 28 12:39:51 2024
+Total CPU time used: 34.609375 seconds (0h:0m:34s)
+Total wall-clock time used: 36.1523355 seconds (0h:0m:36s)
+
